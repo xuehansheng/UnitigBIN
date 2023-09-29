@@ -5,7 +5,7 @@ Encoding Unitig-level Assembly Graphs with Heterophilous Constraints for Metagen
 ## Overview
 
 <p align="center">
-  <img src="UnitigBin.jpg" width="800" title="The pipeline of our proposed method, UnitigBin.">
+  <img src="UnitigBin.jpg" width="900" title="The pipeline of our proposed method, UnitigBin.">
 </p>
 
 **UnitigBIN** consists of two main components: *Learning*, which uses a graph neural network to model the unitig-level assembly graph while adhering to constraints, and *Binning*, a contig-level framework. In the Binning stage, a *Matching* algorithm is employed to initialize markered contigs, *Propagating* labels are used to annotate unmarked contigs while satisfying constraints, and a local *Refining* strategy is incorporated to fine-tune binning assignment
