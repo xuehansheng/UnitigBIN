@@ -1,6 +1,6 @@
 # UnitigBIN
-A PyTorch implementation for the [xxx](xxx) paper:<br>
-Encoding Unitig-level Assembly Graphs with Heterophilous Constraints for Metagenomic Contigs Binning [[ArXiv](xxx)]<br>
+A PyTorch implementation for the [ICLR](https://iclr.cc/Conferences/2024) paper:<br>
+Encoding Unitig-level Assembly Graphs with Heterophilous Constraints for Metagenomic Contigs Binning [[OpenReview](https://openreview.net/forum?id=vBw8JGBJWj)]<br>
 
 ## Overview
 
@@ -30,12 +30,10 @@ python main.py -d Sim5G
 All readers are welcome to star/fork this repository and use it to reproduce our experiments or train your own data. Please kindly cite our paper:
 ```bibtex
 @inproceedings{Xue2023UnitigBIN,
- title = {Encoding Unitig-level Assembly Graphs with Heterophilous Constraints for Metagenomic Contigs Binning},
- author = {Xue, Hansheng and Mallawaarachchi, Vijini and Xie, Lexing and Rajan, Vaibhav},
- booktitle = {},
- pages = {},
- volume = {},
- year = {}
+  title={Encoding Unitig-level Assembly Graphs with Heterophilous Constraints for Metagenomic Contigs Binning},
+  author={Xue, Hansheng and Mallawaarachchi, Vijini and Xie, Lexing and Rajan, Vaibhav},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024}
 }
 
 ```
